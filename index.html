@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>Email Using Sendgrid</title>
+<link rel="stylesheet" href="index.css">
+</head>
+<body>
+<div id="main">
+<div class="div1"></div>
+
+
+<div class="container">
+  <form action="http://127.0.0.1:8080/myaction" method="post" class="form">
+    <div class="row">
+      <div class="col-25">
+        <label for="to">To:</label>
+      </div>
+      <div class="col-75">
+        <input type="email" id="to" name="name" placeholder="Receivers Email Address" >
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="from">From:</label>
+      </div>
+      <div class="col-75">
+        <input type="email" id="from" name="from" placeholder="Your Email Address">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="subject">Subject:</label>
+      </div>
+      <div class="col-75">
+
+        <input type="text" id="subject" name="subject" placeholder="Enter Subject">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="message">Description:</label>
+      </div>
+      <div class="col-75">
+        <textarea id="message" name="message" placeholder="Email body" style="height:200px"></textarea>
+      </div>
+    </div>
+    <div class="row">
+      <input style="background-color:#557C55;" type="submit" value="Submit">
+    </div>
+  </form>
+</div>
+
+
+</div>
+
+</body>
+</html>
